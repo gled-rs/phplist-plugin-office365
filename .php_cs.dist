@@ -1,7 +1,7 @@
 <?php
 
 $finder = PhpCsFixer\Finder::create()
-    ->exclude('plugins/SendGridPlugin/vendor')
+    ->exclude('plugins/Office365Plugin/vendor')
     ->in(__DIR__)
 ;
 
